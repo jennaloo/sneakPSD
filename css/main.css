@@ -1,189 +1,196 @@
-body{
+* {
+    transition: 0.5s ease;
+}
+
+
+body {
     font-family: 'Montserrat', sans-serif;
-    margin:0;
-    padding:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    padding: 0;
 }
 
-.navbar{
-    padding:30px;
+.navbar {
+    padding: 30px;
 }
 
-.navbar img{
-    width:30px;
+.navbar img {
+    width: 30px;
 }
 
-.navbar h1{
-    text-transform:uppercase;
-    vertical-align:top;
-    padding-top:8px;
-    margin:0;
-    display:inline-block;
-    font-size:14px;
-    font-weight:500;
+.navbar h1 {
+    text-transform: uppercase;
+    vertical-align: top;
+    padding-top: 8px;
+    margin: 0;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
 }
 
-.nav-links{
-    float:right;
-    display:inline-block;
-    vertical-align:top;
-    padding-top:7px;
-    margin:0;
+.nav-links {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 7px;
+    margin: 0;
 }
 
-.nav-links li{
-    display:inline-block;
-    margin-left:40px;
+.nav-links li {
+    display: inline-block;
+    margin-left: 40px;
 }
 
-.nav-links a,.second-nav a{
-    text-decoration:none;
-    text-transform:uppercase;
-    color:black;
-    font-size:14px;
+.nav-links a,
+.second-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
 }
 
-.nav-links li:last-child{
-    color:#E84E65;
+.nav-links li:last-child {
+    color: #E84E65;
 }
 
-.nav-links a:hover, .second-nav a:hover{
+.nav-links a:hover,
+.second-nav a:hover {
     background-color: #E84E65;
-    color:white;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:5px;
-    padding-bottom:5px;
-    box-shadow:5px 5px 5px 0px lightpink;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 5px 5px 5px 0px lightpink;
 }
 
-.hero{
-    width:100vw;
-    height:550px;
-    background-image:url("../img/mountain.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
+.hero {
+    width: 100vw;
+    height: 550px;
+    background-image: url("../img/mountain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.layer{
-    position:absolute;
-    background-color:#E84E65;
-    opacity:0.7;
-    height:550px;
-    width:100vw; 
+.layer {
+    position: absolute;
+    background-color: #E84E65;
+    opacity: 0.7;
+    height: 550px;
+    width: 100vw;
 }
 
-.layer h3{
-    text-align:center;
-    vertical-align:center;
-    color:white;
-    font-weight:400;
-    letter-spacing:3px;
-    font-size:30px;
+.layer h3 {
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 30px;
 }
 
-.layer button{
+.layer button {
     background-color: white;
-    color:#E84E65;
-    padding:10px;
-    display:block;
-    margin:0 auto;
-    cursor:pointer;
+    color: #E84E65;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
-.layer button:hover{
-    box-shadow:5px 5px 5px 0px lightpink;
+.layer button:hover {
+    box-shadow: 5px 5px 5px 0px lightpink;
 }
 
-.layer button:active{
-    padding:.7em;
+.layer button:active {
+    padding: .7em;
 }
 
-.layer p{
-    padding-left:20%;
-    padding-right:20%;
-    color:white;
-    font-weight:300;
-    font-size:12px;
+.layer p {
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
 }
 
-.divider{
-    text-align:center;
-    color:#E84E65;
-    padding:30px;
+.divider {
+    text-align: center;
+    color: #E84E65;
+    padding: 30px;
 }
 
-.divider i{
-    padding:10px;
+.divider i {
+    padding: 10px;
 }
 
-.inside-text{
-    padding-top:18%;
+.inside-text {
+    padding-top: 18%;
 }
 
-.second-nav{
-    padding:20px;
-    padding-left:20%;
-    padding-right:25%;
-    text-align:center;
+.second-nav {
+    padding: 20px;
+    padding-left: 20%;
+    padding-right: 25%;
+    text-align: center;
 }
 
-.second-nav li{
-    display:inline-block;
-    margin-left:0;
-    padding:4%;
+.second-nav li {
+    display: inline-block;
+    margin-left: 0;
+    padding: 4%;
 }
 
-.photo-grid{
-    height:500px;
+.photo-grid {
+    height: 500px;
 
-}
-
-
-.image{
-    display:inline-block;
-}
-
-.img1{    
-    background-image:url("../img/createLogos.jpg");
-    background-repeat:no-repeat;
-    background-size:contain;
-    width:19%;
-    height:30%;
-    margin:10px;
-    vertical-align:top;
 }
 
 
+.image {
+    display: inline-block;
+}
 
-.layer2{
-    position:absolute;
-    background-color:#E84E65;
-    width:18% !important;
-    height:26% !important;
-    opacity:0.7;
-    margin:2px;
-    left:20px;
-    height:290px;
-    width:33%; 
+.img1 {
+    background-image: url("../img/createLogos.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19%;
+    height: 30%;
+    margin: 10px;
+    vertical-align: top;
 }
 
 
-.img2{
-    background-image:url("../img/nikead.jpg");
-    background-repeat:no-repeat;
-    background-size:contain;
-    width:16%;
-    height:30%;
-    vertical-align:top;
-    margin:10px;
+
+.layer2 {
+    position: absolute;
+    background-color: #E84E65;
+    width: 18% !important;
+    height: 26% !important;
+    opacity: 0.7;
+    margin: 2px;
+    left: 20px;
+    height: 290px;
+    width: 33%;
 }
 
-.img3{
-    background-image:url("../img/stackBooks.jpg");
-    background-size:contain;
-    background-repeat:no-repeat;
-    width:22%;
-    height:62%;
-    margin:5px;
+
+.img2 {
+    background-image: url("../img/nikead.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16%;
+    height: 30%;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.img3 {
+    background-image: url("../img/stackBooks.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 22%;
+    height: 62%;
+    margin: 5px;
 }
